@@ -1,0 +1,62 @@
+{
+    // Configurações de tema
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "\"Fira Code Retina\"",
+    "editor.fontLigatures": true,
+    //
+    // Configurações do editor
+    "breadcrumbs.enabled": true,
+    "workbench.editor.labelFormat": "medium",
+    "editor.minimap.enabled": false,
+    "editor.parameterHints.enabled": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.tabSize": 2,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    //
+    // Javascript
+    "javascript.updateImportsOnFileMove.enabled": "prompt",
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    //
+    // Typescript
+    "typescript.updateImportsOnFileMove.enabled": "prompt",
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    //
+    // Emmet
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+    //
+    // Outros
+    "files.watcherExclude": {
+        "**/vendor/**": true
+    },
+    "git.suggestSmartCommit": false,
+}
